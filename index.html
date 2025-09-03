@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>PRESENSI MANUAL DAN LAMBAT</title>
+    <style>
+        :root {
+            --bg: #800000;
+            /* Background merah maroon */
+            --card: #4d0000;
+            /* Card lebih gelap */
+            --accent: #ffb3b3;
+            /* Warna aksen merah muda */
+            --text-primary: #ffffff;
+            /* Teks utama putih */
+            --text-secondary: #ffe6e6;
+            /* Teks sekunder merah muda pucat */
+        }
+
+        * {
+            box-sizing: border-box
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: var(--bg);
+            color: var(--text-primary);
+            margin: 0;
+            padding: 24px;
+            line-height: 1.6;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-weight: 700;
+            margin-bottom: 0.5em;
+        }
+
+        h1 {
+            font-size: 2.5em;
+        }
+
+        h2 {
+            font-size: 2em;
+        }
+
+        h3 {
+            font-size: 1.5em;
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 2em;
+        }
+
+        .logo {
+            width: 56px;
+            height: 56px;
+            border-radius: 10px;
+            background: linear-gradient(135deg, var(--accent), #e60000);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--text-primary);
+            font-weight: 700;
+            font-size: 1.2em;
+        }
+
+        .lead {
+            color: var(--text-secondary);
+            margin-bottom: 2em;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+        }
+
+        .card {
+            background: var(--card);
+            border-radius: 12px;
+            padding: 2em;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin-bottom: 2em;
+        }
+
+        ul {
+            padding-left: 2em;
+            margin-bottom: 1em;
+        }
+
+        li {
+            margin-bottom: 0.5em;
+            color: var(--text-secondary);
+        }
+
+        .conclusion {
+            font-style: italic;
+            color: var(--text-secondary);
+        }
+    </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+</head>
+
+<body>
+    <header>
+        <div class="logo">PM</div>
+        <div>
+            <h1>PRESENSI MANUAL DAN LAMBAT</h1>
+            <p class="lead">Mengenal lebih dekat sistem presensi manual dan dampaknya.</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <main>
+            <section class="card">
+                <h2>CIRI-CIRI PRESENSI MANUAL DAN LAMBAT</h2>
+                <ul>
+                    <li><strong>Metode Pencatatan:</strong> Menggunakan buku absensi, tanda tangan, atau buku ceklok (punch card) untuk mencatat waktu masuk dan pulang.</li>
+                    <li><strong>Potensi Kesalahan Manusia:</strong> Rentan terhadap kesalahan pencatatan, lupa menandatangani, atau salah mengisi jam kerja.</li>
+                    <li><strong>Potensi Kecurangan:</strong> Memungkinkan adanya manipulasi data, seperti titip absen atau rekayasa waktu.</li>
+                    <li><strong>Proses Rekapitulasi Lambat:</strong> Membutuhkan waktu dan tenaga ekstra untuk mengumpulkan, memverifikasi, dan merekapitulasi data kehadiran secara manual.</li>
+                    <li><strong>Sulit Dipantau Real-Time:</strong> Manajer tidak dapat memantau kehadiran karyawan secara langsung atau mendekati waktu nyata.</li>
+                </ul>
+            </section>
+
+            <section class="card">
+                <h2>KEKURANGAN PRESENSI MANUAL DAN LAMBAT</h2>
+                <ul>
+                    <li><strong>Kurangnya Efisiensi:</strong> Menghabiskan waktu dan sumber daya untuk pencatatan dan rekapitulasi yang seharusnya bisa dilakukan lebih cepat.</li>
+                    <li><strong>Inakurasi Data:</strong> Data yang dihasilkan bisa tidak akurat karena kesalahan manusia atau manipulasi.</li>
+                    <li><strong>Tingginya Biaya Tersembunyi:</strong> Selain biaya awal yang rendah, ada biaya tenaga kerja tambahan untuk proses rekapitulasi manual.</li>
+                    <li><strong>Tidak Mendukung Kerja Fleksibel:</strong> Kurang cocok untuk tren kerja remote dan hybrid yang membutuhkan sistem yang fleksibel.</li>
+                </ul>
+            </section>
+
+            <section class="card">
+                <h2>KELEBIHAN PRESENSI MANUAL DAN LAMBAT</h2>
+                <ul>
+                    <li><strong>Biaya Awal Rendah:</strong> Tidak memerlukan investasi besar untuk perangkat keras atau lunak khusus, hanya buku absensi atau lembaran kertas sederhana.</li>
+                    <li><strong>Mudah Diimplementasikan:</strong> Sistem ini sederhana dan mudah dipahami oleh karyawan, bahkan tanpa pelatihan khusus.</li>
+                    <li><strong>Tidak Bergantung Teknologi:</strong> Tidak membutuhkan akses internet atau pasokan listrik, sehingga cocok untuk daerah dengan keterbatasan teknologi.</li>
+                    <li><strong>Cocok untuk Usaha Kecil:</strong> Pilihan efektif bagi perusahaan kecil yang belum mampu mengadopsi sistem digital karena keterbatasan biaya.</li>
+                    <li><strong>Administrasi Sederhana (untuk skala kecil):</strong> Jika jumlah karyawan tidak banyak, sistem administrasi manual yang terstruktur cenderung sederhana.</li>
+                    <li><strong>Memberikan Informasi Real-Time:</strong> Karyawan bisa mencatat kehadiran mereka secara langsung pada saat masuk atau pulang kerja.</li>
+                </ul>
+            </section>
+
+            <section class="card">
+                <h2>DAMPAK DARI PRESENSI MANUAL DAN LAMBAT</h2>
+                <ul>
+                    <li><strong>Laporan Lambat:</strong> Manajer dan tim HR harus menunggu berhari-hari untuk mendapatkan laporan absensi.</li>
+                    <li><strong>Kurangnya Wawasan:</strong> Sulit untuk mengidentifikasi tren atau akar masalah keterlambatan dan absensi.</li>
+                    <li><strong>Pengambilan Keputusan Terlambat:</strong> Kurangnya data real-time dan analitik membuat keputusan terkait sumber daya dan pengelolaan karyawan menjadi lambat dan kurang efektif.</li>
+                </ul>
+            </section>
+
+            <section class="card">
+                <h2>SOLUSI MENGATASI MASALAH PRESENSI MANUAL DAN LAMBAT</h2>
+                <ul>
+                    <li><strong>Data Akurat dan Transparan:</strong> Sistem digital memastikan kehadiran tercatat secara akurat, transparan, dan efisien.</li>
+                    <li><strong>Pelaporan Real-Time:</strong> Manajer dan tim HR memiliki akses instan ke dashboard untuk melihat status kehadiran karyawan secara real-time.</li>
+                    <li><strong>Analitik dan Wawasan:</strong> Fitur analitik dapat mengidentifikasi pola dan tren, memungkinkan perusahaan mengambil keputusan strategis yang lebih baik.</li>
+                    <li><strong>Efisiensi Waktu:</strong> Proses rekap data dan penghitungan gaji menjadi jauh lebih cepat dan efisien.</li>
+                    <li><strong>Fleksibilitas:</strong> Teknologi seperti presensi berbasis GPS, selfie, atau kartu proximity memungkinkan pencatatan kehadiran yang lebih fleksibel, termasuk untuk karyawan lapangan atau kerja jarak jauh.</li>
+                </ul>
+            </section>
+
+            <section class="card">
+                <h2>KESIMPULAN SINGKAT</h2>
+                <p class="conclusion">Presensi manual memang sederhana dan murah, tetapi lambat, rawan kesalahan, serta tidak efisien. Solusi terbaik adalah beralih ke sistem presensi digital yang lebih akurat, cepat, dan fleksibel.</p>
+            </section>
+        </main>
+    </div>
+</body>
+
+  </html>
+  
